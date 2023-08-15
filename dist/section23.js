@@ -22,9 +22,9 @@ class UserC {
     }
 }
 let userOne = new UserC("Jaber", 6000, "Safot");
-console.log(userOne.username);
+console.log(userOne.userName);
 user.username = "Yaqob Gamer den Debaza";
-console.log(userOne.username);
+console.log(userOne.userName);
 console.log(userOne.msg());
 console.log(userOne.sayMsg());
 //# sourceMappingURL=section23.js.map
