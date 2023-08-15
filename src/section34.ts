@@ -23,3 +23,8 @@ console.log(returnString("true"));
 function returnType<GebericType> (val: GebericType): GebericType{
     return val;
 }
+//her i will to sent the type as parimater win I use the function
+console.log(returnType<boolean>(true));
+console.log(returnType<number>(100));
+console.log(returnType<string>("true"));
+console.log(returnType<string[]>(['A', 'B', 'D', 'C',]));
